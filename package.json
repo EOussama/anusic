@@ -1,6 +1,14 @@
 {
   "name": "anusic",
   "version": "0.0.0",
+  "keywords": [
+    "anime",
+    "music",
+    "themes",
+    "anime-themes",
+    "anime-music",
+    "anusic"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
