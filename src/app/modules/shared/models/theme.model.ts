@@ -1,3 +1,8 @@
+import { MediaFormat } from '../enums/media-format.enum';
+
+/**
+ * The theme
+ */
 export interface Theme {
 
   /**
@@ -18,7 +23,7 @@ export interface Theme {
   /**
    * The media format
    */
-  format: string;
+  format: MediaFormat;
 
   /**
    * Whether the theme contains spoilers
