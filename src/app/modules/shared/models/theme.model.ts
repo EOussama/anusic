@@ -26,6 +26,11 @@ export interface Theme {
   format: MediaFormat;
 
   /**
+   * The video resolution
+   */
+  resolution: string;
+
+  /**
    * Whether the theme contains spoilers
    */
   spoiler: boolean;
@@ -36,12 +41,22 @@ export interface Theme {
   nsfw: boolean;
 
   /**
+   * Whether the theme has credits
+   */
+  creditless: boolean;
+
+  /**
    * Whether the theme has lyrics
    */
   lyrics: boolean;
 
   /**
-   * Whether the video is 1080p
+   * Whether the theme transitions from the episode
    */
-  HD: boolean;
+  transition: boolean;
+
+  /**
+   * Whether the them overlays the episode
+   */
+  over: boolean;
 }
