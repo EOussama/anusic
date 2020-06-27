@@ -33,30 +33,30 @@ export interface Theme {
   /**
    * Whether the theme contains spoilers
    */
-  spoiler: boolean;
+  hasSpoilers: boolean;
 
   /**
    * Whether the theme is NSFW
    */
-  nsfw: boolean;
+  isNSFW: boolean;
 
   /**
    * Whether the theme has credits
    */
-  creditless: boolean;
+  isCreditless: boolean;
 
   /**
    * Whether the theme has lyrics
    */
-  lyrics: boolean;
+  hasLyrics: boolean;
 
   /**
    * Whether the theme transitions from the episode
    */
-  transition: boolean;
+  isTransition: boolean;
 
   /**
    * Whether the them overlays the episode
    */
-  over: boolean;
+  isOver: boolean;
 }
