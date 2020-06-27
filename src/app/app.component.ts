@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ScrapperService } from './modules/scraper/services/scrapper.service';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -12,9 +14,11 @@ export class AppComponent implements OnInit {
 
   //#region Lifecycle
 
-  ngOnInit(): void {
-    console.log('OnInit');
-  }
+  constructor(
+    private scrapper: ScrapperService
+  ) { }
+
+  ngOnInit(): void { }
 
   //#endregion
 }
